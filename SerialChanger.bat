@@ -43,10 +43,12 @@ winxsrcsv64.exe /BSH 2 2207%random%%random%
 winxsrcsv64.exe /BS 2207%random%%random%
 winxsrcsv64.exe /CM "ASUSTeK COMPUTER INC."
 winxsrcsv64.exe /BM "ASUSTeK COMPUTER INC."
-exit
+
 
 cls 
 net stop winmgmt /y
 net start winmgmt /y
 sc stop winmgmt
 sc start winmgmt
+
+exit
