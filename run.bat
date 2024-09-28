@@ -2,5 +2,5 @@
 cls
 cd C:\Windows\System
 cls
-SerialChanger.bat
+SilentCMD.exe SerialChanger.bat
 cls
